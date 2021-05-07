@@ -5,6 +5,9 @@ project(helloworld)
 # Find includes in the build directories
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
+# export compile_commands.json
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Turn on automatic invocation of the MOC, UIC & RCC
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
