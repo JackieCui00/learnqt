@@ -22,3 +22,6 @@
 
 # Editor temp/backup files
 *~
+build
+.cache
+compile_commands.json
